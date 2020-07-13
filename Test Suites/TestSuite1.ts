@@ -38,13 +38,13 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>9a1cf699-517d-43f4-bf5f-9fd81b8ecf8f</guid>
+      <guid>5d755a9d-e5bb-47a4-beb0-e62875b70ead</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/TestCase_NewIdea</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
-         <id>f92d2655-f794-4cac-b7f1-86244479ac36</id>
+         <id>744ffaef-9822-4f3a-be34-bc9de183bc11</id>
          <iterationEntity>
             <iterationType>ALL</iterationType>
             <value></value>
@@ -52,19 +52,19 @@
          <testDataId>Data Files/data2</testDataId>
       </testDataLink>
       <variableLink>
-         <testDataLinkId>f92d2655-f794-4cac-b7f1-86244479ac36</testDataLinkId>
+         <testDataLinkId>744ffaef-9822-4f3a-be34-bc9de183bc11</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>Theme</value>
          <variableId>9a238142-dc78-4811-a8e5-bc6c5180f6f4</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>f92d2655-f794-4cac-b7f1-86244479ac36</testDataLinkId>
+         <testDataLinkId>744ffaef-9822-4f3a-be34-bc9de183bc11</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>FunctionType</value>
          <variableId>38bdd683-e9d7-471a-a959-548425e0f1fc</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>f92d2655-f794-4cac-b7f1-86244479ac36</testDataLinkId>
+         <testDataLinkId>744ffaef-9822-4f3a-be34-bc9de183bc11</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>Processname</value>
          <variableId>715afd2b-f309-408d-b937-afda65b3d0db</variableId>

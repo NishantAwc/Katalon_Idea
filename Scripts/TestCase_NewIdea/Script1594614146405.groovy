@@ -40,5 +40,3 @@ WebUI.verifyMatch('Your idea has been submitted successfully!!!', 'Your idea has
 
 WebUI.click(findTestObject('Object Repository/NewIdeaPage/Page_NewIdea/button_Close'))
 
-WebUI.closeBrowser()
-
