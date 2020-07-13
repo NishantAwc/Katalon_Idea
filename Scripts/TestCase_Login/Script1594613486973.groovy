@@ -20,17 +20,15 @@ WebUI.openBrowser('https://awcsoftwarenoida.sharepoint.com/sites/Indus/IdeaIncub
 
 WebUI.maximizeWindow()
 
-WebUI.setText(findTestObject('LoginPage/Page_Sign in to your account/input_Sign in_loginfmt'), 'Prabodh.Saxena@awcsoftwarenoida.onmicrosoft.com')
+WebUI.setText(findTestObject('LoginPage/Page_Sign in to your account/input_Sign in_loginfmt'), username)
 
 WebUI.click(findTestObject('LoginPage/Page_Sign in to your account/input_Sign in_idSIButton9'))
 
-WebUI.setEncryptedText(findTestObject('LoginPage/Page_Sign in to your account/input_Enter password_passwd'), 'IiCRdv8KyzGB0RV6mb9iTg==')
+WebUI.setText(findTestObject('LoginPage/Page_Sign in to your account/input_Enter password_passwd'), password)
 
 WebUI.click(findTestObject('LoginPage/Page_Sign in to your account/input_Sign in_idSIButton9'))
 
 WebUI.click(findTestObject('LoginPage/Page_Sign in to your account/input_concat(Don  t show this again)_idBtn_Back'))
 
 WebUI.verifyElementVisible(findTestObject('HomePage/Page_Home/img_Edit Links_onetidHeadbnnr0'))
-
-WebUI.closeBrowser()
 
