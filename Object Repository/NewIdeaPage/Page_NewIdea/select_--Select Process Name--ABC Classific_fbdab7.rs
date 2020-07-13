@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>select_--Select Process Name--ABC Classific_fbdab7</name>
+   <tag></tag>
+   <elementGuidId>a459653e-6e91-4634-9c3c-bb0202e49f86</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//select[@id='drpideaprocess']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>select</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>form-control mandatoryField</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>drpideaprocess</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>--Select Process Name--ABC ClassificationContract and BG of IME/ OME/ SMS/ FMSContract GovernanceContract RenewalDaily OperationsDeviation Approval ProcessHealth Assessment and Asset RepairIndirect SourcingInter / Intra Unit TransferInventory / Asset Disposal ManagementInventory ClassificationInventory Closing ProcessInventory Storage ProcessInvoice Receipt at PHD and ValidationLocation ManagementMaterial ForecastingMaterial Planning for Infra ItemsMinimum Wages processMonthly IME RatingMonthly IME Warehouse AuditPartner Due Diligence ProcessPartner Performance Evaluation &amp; Rating (PPMSC)Partner RatingPartner Registration ProcessPartner Selection process for New Product/ Additional ServicesPartner to SitePartner to Warehouse (GRN)Partners Quality AuditPartners Quality Concern RoomPayment Concern RoomPhysical verification of GoodsPL Sourcing ProcessPPAPPR to PO generation for IME/ OME/ SMSPR to PO- IBSPre Dispatch Inspection (PDI)PSATPurchase Order Issue for Infra ItemsSelf Certification ProcessSelf- Certification ValidationShare of Business Allocation- TSPSite Return Management (SRN)Sourcing for Maintenance Services -IME &amp; SMSSourcing of Direct Material through New and Existing PartnerSourcing of Services through New and Existing PartnerSourcing of SME ServicesTransporter SoB ProcessWarehouse Business Continuity PlanWarehouse Partners Governance excluding PLWarehouse Selection ProcessWarehouse to SiteOthers</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;drpideaprocess&quot;)</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//select[@id='drpideaprocess']</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='WebPartWPQ1']/div/div[4]/div/div[2]/div/div[5]/div[2]/select</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='*'])[5]/following::select[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Go to ARIS for this process'])[1]/preceding::select[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[5]/div[2]/select</value>
+   </webElementXpaths>
+</WebElementEntity>

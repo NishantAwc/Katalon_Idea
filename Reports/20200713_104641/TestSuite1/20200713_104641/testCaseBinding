@@ -1,0 +1,2 @@
+{"testCaseName":"Test Cases/TestCase_Login","testCaseId":"Test Cases/TestCase_Login","bindedValues":{"password":"\u0027Sankalp@123\u0027","username":"\u0027Prabodh.Saxena@awcsoftwarenoida.onmicrosoft.com\u0027"}}
+{"testCaseName":"Test Cases/TestCase_NewIdea","testCaseId":"Test Cases/TestCase_NewIdea","bindedValues":{"FunctionType":"\u0027ESH\u0027","Theme":"\u0027ESH\u0027","Processname":"\u0027Training Process\u0027"}}

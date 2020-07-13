@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TestSuite1" time="84.217" tests="2" failures="0" errors="0">
+   <testsuite name="TestSuite1" tests="2" failures="0" errors="0" time="84.217" timestamp="2020-07-13 10:11:23" hostname="Nishant Gahlot - DESKTOP-9ECRCSO" id="Test Suites/TestSuite1">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Nishant Gahlot\\git\\Katalon_Idea\\Reports\\20200713_101117\\TestSuite1\\20200713_101117"/>
+         <property name="logFiles" value="C:\\Users\\Nishant Gahlot\\git\\Katalon_Idea\\Reports\\20200713_101117\\TestSuite1\\20200713_101117\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Nishant Gahlot - DESKTOP-9ECRCSO"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.5.5.1"/>
+         <property name="browser" value="Chrome 83.0.4103.116"/>
+         <property name="hostAddress" value="192.168.225.114"/>
+         <property name="sessionId" value="6b8bf8021cb5561389cfeaa3d2603c1d"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=\&quot;\&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/TestCase_Login" time="49.988" classname="Test Cases/TestCase_Login" status="PASSED">
+         <system-out><![CDATA[2020-07-13 10:11:23 - [TEST_CASE][PASSED] - Test Cases/TestCase_Login: Test Cases/TestCase_Login
+
+2020-07-13 10:11:24 - [TEST_STEP][PASSED] - openBrowser("https://awcsoftwarenoida.sharepoint.com/sites/Indus/IdeaIncubator"): Browser is opened with url: 'https://awcsoftwarenoida.sharepoint.com/sites/Indus/IdeaIncubator'
+
+2020-07-13 10:11:24 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-07-13 10:11:25 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-07-13 10:11:33 - [MESSAGE][PASSED] - Browser is opened with url: 'https://awcsoftwarenoida.sharepoint.com/sites/Indus/IdeaIncubator'
+
+2020-07-13 10:11:33 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-07-13 10:11:39 - [MESSAGE][PASSED] - Current window maximized
+
+2020-07-13 10:11:39 - [TEST_STEP][PASSED] - setText(findTestObject("LoginPage/Page_Sign in to your account/input_Sign in_loginfmt"), "Prabodh.Saxena@awcsoftwarenoida.onmicrosoft.com"): Text 'Prabodh.Saxena@awcsoftwarenoida.onmicrosoft.com' is set on object 'Object Repository/LoginPage/Page_Sign in to your account/input_Sign in_loginfmt'
+
+2020-07-13 10:11:40 - [MESSAGE][PASSED] - Text 'Prabodh.Saxena@awcsoftwarenoida.onmicrosoft.com' is set on object 'Object Repository/LoginPage/Page_Sign in to your account/input_Sign in_loginfmt'
+
+2020-07-13 10:11:40 - [TEST_STEP][PASSED] - click(findTestObject("LoginPage/Page_Sign in to your account/input_Sign in_idSIButton9")): Object: 'Object Repository/LoginPage/Page_Sign in to your account/input_Sign in_idSIButton9' is clicked on
+
+2020-07-13 10:11:40 - [MESSAGE][PASSED] - Object: 'Object Repository/LoginPage/Page_Sign in to your account/input_Sign in_idSIButton9' is clicked on
+
+2020-07-13 10:11:40 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("LoginPage/Page_Sign in to your account/input_Enter password_passwd"), "IiCRdv8KyzGB0RV6mb9iTg=="): Text ****** has been set on object 'Object Repository/LoginPage/Page_Sign in to your account/input_Enter password_passwd'
+
+2020-07-13 10:11:42 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/LoginPage/Page_Sign in to your account/input_Enter password_passwd'
+
+2020-07-13 10:11:42 - [TEST_STEP][PASSED] - click(findTestObject("LoginPage/Page_Sign in to your account/input_Sign in_idSIButton9")): Object: 'Object Repository/LoginPage/Page_Sign in to your account/input_Sign in_idSIButton9' is clicked on
+
+2020-07-13 10:11:44 - [MESSAGE][PASSED] - Object: 'Object Repository/LoginPage/Page_Sign in to your account/input_Sign in_idSIButton9' is clicked on
+
+2020-07-13 10:11:44 - [TEST_STEP][PASSED] - click(findTestObject("LoginPage/Page_Sign in to your account/input_concat(Don  t show this again)_idBtn_Back")): Object: 'Object Repository/LoginPage/Page_Sign in to your account/input_concat(Don  t show this again)_idBtn_Back' is clicked on
+
+2020-07-13 10:12:12 - [MESSAGE][PASSED] - Object: 'Object Repository/LoginPage/Page_Sign in to your account/input_concat(Don  t show this again)_idBtn_Back' is clicked on
+
+2020-07-13 10:12:12 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("HomePage/Page_Home/img_Edit Links_onetidHeadbnnr0")): Object 'Object Repository/HomePage/Page_Home/img_Edit Links_onetidHeadbnnr0' is visible
+
+2020-07-13 10:12:13 - [MESSAGE][PASSED] - Object 'Object Repository/HomePage/Page_Home/img_Edit Links_onetidHeadbnnr0' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TestCase_NewIdea" time="33.672" classname="Test Cases/TestCase_NewIdea" status="PASSED">
+         <system-out><![CDATA[2020-07-13 10:12:13 - [TEST_CASE][PASSED] - Test Cases/TestCase_NewIdea: Test Cases/TestCase_NewIdea
+
+2020-07-13 10:12:14 - [TEST_STEP][PASSED] - click(findTestObject("HomePage/Page_Home (1)/span_Have an Idea SUBMIT HERE")): Object: 'Object Repository/HomePage/Page_Home (1)/span_Have an Idea SUBMIT HERE' is clicked on
+
+2020-07-13 10:12:15 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/Page_Home (1)/span_Have an Idea SUBMIT HERE' is clicked on
+
+2020-07-13 10:12:15 - [TEST_STEP][PASSED] - switchToWindowTitle("NewIdea"): Switched to window with title: 'NewIdea'
+
+2020-07-13 10:12:23 - [MESSAGE][PASSED] - Switched to window with title: 'NewIdea'
+
+2020-07-13 10:12:23 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/NewIdeaPage/Page_NewIdea/select_--Select Theme--Cost LeadershipCusto_b78f32"), "Sharing Tenancy", true): All options with value 'Sharing Tenancy' are selected in object 'Object Repository/NewIdeaPage/Page_NewIdea/select_--Select Theme--Cost LeadershipCusto_b78f32'  using regular expression
+
+2020-07-13 10:12:27 - [MESSAGE][PASSED] - All options with value 'Sharing Tenancy' are selected in object 'Object Repository/NewIdeaPage/Page_NewIdea/select_--Select Theme--Cost LeadershipCusto_b78f32'  using regular expression
+
+2020-07-13 10:12:27 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/NewIdeaPage/Page_NewIdea/textarea_Characters  1500Text should be min_cc5bf1"), "jdhjdhsjdhsdjhsjdhdhhjsdhsjdhshdjsdhsdjdhsjdhsdjsjdhj"): Text 'jdhjdhsjdhsdjhsjdhdhhjsdhsjdhshdjsdhsdjdhsjdhsdjsjdhj' is set on object 'Object Repository/NewIdeaPage/Page_NewIdea/textarea_Characters  1500Text should be min_cc5bf1'
+
+2020-07-13 10:12:29 - [MESSAGE][PASSED] - Text 'jdhjdhsjdhsdjhsjdhdhhjsdhsjdhshdjsdhsdjdhsjdhsdjsjdhj' is set on object 'Object Repository/NewIdeaPage/Page_NewIdea/textarea_Characters  1500Text should be min_cc5bf1'
+
+2020-07-13 10:12:29 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/NewIdeaPage/Page_NewIdea/select_--Select Function Type--AcquisitionD_a37637"), "Supply Chain Mgmt", true): All options with value 'Supply Chain Mgmt' are selected in object 'Object Repository/NewIdeaPage/Page_NewIdea/select_--Select Function Type--AcquisitionD_a37637'  using regular expression
+
+2020-07-13 10:12:31 - [MESSAGE][PASSED] - All options with value 'Supply Chain Mgmt' are selected in object 'Object Repository/NewIdeaPage/Page_NewIdea/select_--Select Function Type--AcquisitionD_a37637'  using regular expression
+
+2020-07-13 10:12:31 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/NewIdeaPage/Page_NewIdea/textarea_Characters  1500Text should be min_a388de"), "jjsnxhschsjhjssjsjsjshjsdsjsjjssjjsjsjsjjsjjssjsjsjjs"): Text 'jjsnxhschsjhjssjsjsjshjsdsjsjjssjjsjsjsjjsjjssjsjsjjs' is set on object 'Object Repository/NewIdeaPage/Page_NewIdea/textarea_Characters  1500Text should be min_a388de'
+
+2020-07-13 10:12:33 - [MESSAGE][PASSED] - Text 'jjsnxhschsjhjssjsjsjshjsdsjsjjssjjsjsjsjjsjjssjsjsjjs' is set on object 'Object Repository/NewIdeaPage/Page_NewIdea/textarea_Characters  1500Text should be min_a388de'
+
+2020-07-13 10:12:33 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/NewIdeaPage/Page_NewIdea/select_--Select Process Name--ABC Classific_fbdab7"), "Material Planning for Infra Items", true): All options with value 'Material Planning for Infra Items' are selected in object 'Object Repository/NewIdeaPage/Page_NewIdea/select_--Select Process Name--ABC Classific_fbdab7'  using regular expression
+
+2020-07-13 10:12:38 - [MESSAGE][PASSED] - All options with value 'Material Planning for Infra Items' are selected in object 'Object Repository/NewIdeaPage/Page_NewIdea/select_--Select Process Name--ABC Classific_fbdab7'  using regular expression
+
+2020-07-13 10:12:38 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/NewIdeaPage/Page_NewIdea/button_Submit Idea")): Object: 'Object Repository/NewIdeaPage/Page_NewIdea/button_Submit Idea' is clicked on
+
+2020-07-13 10:12:40 - [MESSAGE][PASSED] - Object: 'Object Repository/NewIdeaPage/Page_NewIdea/button_Submit Idea' is clicked on
+
+2020-07-13 10:12:40 - [TEST_STEP][PASSED] - verifyMatch("Your idea has been submitted successfully!!!", "Your idea has been submitted successfully!!!", false): Actual text 'Your idea has been submitted successfully!!!' and expected text 'Your idea has been submitted successfully!!!' are matched 
+
+2020-07-13 10:12:40 - [MESSAGE][PASSED] - Actual text 'Your idea has been submitted successfully!!!' and expected text 'Your idea has been submitted successfully!!!' are matched 
+
+2020-07-13 10:12:40 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/NewIdeaPage/Page_NewIdea/button_Close")): Object: 'Object Repository/NewIdeaPage/Page_NewIdea/button_Close' is clicked on
+
+2020-07-13 10:12:46 - [MESSAGE][PASSED] - Object: 'Object Repository/NewIdeaPage/Page_NewIdea/button_Close' is clicked on
+
+2020-07-13 10:12:46 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-07-13 10:12:47 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-07-13 10:11:23 - [TEST_SUITE][PASSED] - TestSuite1: Test Cases/TestCase_NewIdea]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TestSuite1" time="66.576" tests="2" failures="1" errors="0">
+   <testsuite name="TestSuite1" tests="2" failures="1" errors="0" time="66.576" timestamp="2020-07-13 10:01:51" hostname="Nishant Gahlot - DESKTOP-9ECRCSO" id="Test Suites/TestSuite1">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Nishant Gahlot\\git\\Katalon_Idea\\Reports\\20200713_100145\\TestSuite1\\20200713_100145"/>
+         <property name="logFiles" value="C:\\Users\\Nishant Gahlot\\git\\Katalon_Idea\\Reports\\20200713_100145\\TestSuite1\\20200713_100145\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\Nishant Gahlot\\git\\Katalon_Idea\\Reports\\20200713_100145\\TestSuite1\\20200713_100145\\1594614775763.png"/>
+         <property name="hostName" value="Nishant Gahlot - DESKTOP-9ECRCSO"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.5.5.1"/>
+         <property name="browser" value="Chrome 83.0.4103.116"/>
+         <property name="hostAddress" value="192.168.225.114"/>
+         <property name="sessionId" value="38d0c755cecc5cf53b38748fe8f4385e"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=\&quot;\&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/TestCase_Login" time="40.817" classname="Test Cases/TestCase_Login" status="PASSED">
+         <system-out><![CDATA[2020-07-13 10:01:51 - [TEST_CASE][PASSED] - Test Cases/TestCase_Login: Test Cases/TestCase_Login
+
+2020-07-13 10:01:52 - [TEST_STEP][PASSED] - openBrowser("https://awcsoftwarenoida.sharepoint.com/sites/Indus/IdeaIncubator"): Browser is opened with url: 'https://awcsoftwarenoida.sharepoint.com/sites/Indus/IdeaIncubator'
+
+2020-07-13 10:01:52 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-07-13 10:01:52 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-07-13 10:02:01 - [MESSAGE][PASSED] - Browser is opened with url: 'https://awcsoftwarenoida.sharepoint.com/sites/Indus/IdeaIncubator'
+
+2020-07-13 10:02:01 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-07-13 10:02:04 - [MESSAGE][PASSED] - Current window maximized
+
+2020-07-13 10:02:04 - [TEST_STEP][PASSED] - setText(findTestObject("LoginPage/Page_Sign in to your account/input_Sign in_loginfmt"), "Prabodh.Saxena@awcsoftwarenoida.onmicrosoft.com"): Text 'Prabodh.Saxena@awcsoftwarenoida.onmicrosoft.com' is set on object 'Object Repository/LoginPage/Page_Sign in to your account/input_Sign in_loginfmt'
+
+2020-07-13 10:02:05 - [MESSAGE][PASSED] - Text 'Prabodh.Saxena@awcsoftwarenoida.onmicrosoft.com' is set on object 'Object Repository/LoginPage/Page_Sign in to your account/input_Sign in_loginfmt'
+
+2020-07-13 10:02:05 - [TEST_STEP][PASSED] - click(findTestObject("LoginPage/Page_Sign in to your account/input_Sign in_idSIButton9")): Object: 'Object Repository/LoginPage/Page_Sign in to your account/input_Sign in_idSIButton9' is clicked on
+
+2020-07-13 10:02:06 - [MESSAGE][PASSED] - Object: 'Object Repository/LoginPage/Page_Sign in to your account/input_Sign in_idSIButton9' is clicked on
+
+2020-07-13 10:02:06 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("LoginPage/Page_Sign in to your account/input_Enter password_passwd"), "IiCRdv8KyzGB0RV6mb9iTg=="): Text ****** has been set on object 'Object Repository/LoginPage/Page_Sign in to your account/input_Enter password_passwd'
+
+2020-07-13 10:02:08 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/LoginPage/Page_Sign in to your account/input_Enter password_passwd'
+
+2020-07-13 10:02:08 - [TEST_STEP][PASSED] - click(findTestObject("LoginPage/Page_Sign in to your account/input_Sign in_idSIButton9")): Object: 'Object Repository/LoginPage/Page_Sign in to your account/input_Sign in_idSIButton9' is clicked on
+
+2020-07-13 10:02:09 - [MESSAGE][PASSED] - Object: 'Object Repository/LoginPage/Page_Sign in to your account/input_Sign in_idSIButton9' is clicked on
+
+2020-07-13 10:02:09 - [TEST_STEP][PASSED] - click(findTestObject("LoginPage/Page_Sign in to your account/input_concat(Don  t show this again)_idBtn_Back")): Object: 'Object Repository/LoginPage/Page_Sign in to your account/input_concat(Don  t show this again)_idBtn_Back' is clicked on
+
+2020-07-13 10:02:30 - [MESSAGE][PASSED] - Object: 'Object Repository/LoginPage/Page_Sign in to your account/input_concat(Don  t show this again)_idBtn_Back' is clicked on
+
+2020-07-13 10:02:30 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("HomePage/Page_Home/img_Edit Links_onetidHeadbnnr0")): Object 'Object Repository/HomePage/Page_Home/img_Edit Links_onetidHeadbnnr0' is visible
+
+2020-07-13 10:02:32 - [MESSAGE][PASSED] - Object 'Object Repository/HomePage/Page_Home/img_Edit Links_onetidHeadbnnr0' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TestCase_NewIdea" time="23.841" classname="Test Cases/TestCase_NewIdea" status="FAILED">
+         <failure type="FAILED" message="Test Cases/TestCase_NewIdea FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'Successfully' is present 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1719)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$7.call(Unknown Source)
+	at TestCase_NewIdea.run(TestCase_NewIdea:40)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1594614705935.run(TempTestSuite1594614705935.groovy:37)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'Successfully' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2020-07-13 10:02:32 - [TEST_CASE][FAILED] - Test Cases/TestCase_NewIdea: Test Cases/TestCase_NewIdea FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'Successfully' is present 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1719)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$7.call(Unknown Source)
+	at TestCase_NewIdea.run(TestCase_NewIdea:40)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1594614705935.run(TempTestSuite1594614705935.groovy:37)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'Successfully' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2020-07-13 10:02:32 - [TEST_STEP][PASSED] - click(findTestObject("HomePage/Page_Home (1)/span_Have an Idea SUBMIT HERE")): Object: 'Object Repository/HomePage/Page_Home (1)/span_Have an Idea SUBMIT HERE' is clicked on
+
+2020-07-13 10:02:33 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/Page_Home (1)/span_Have an Idea SUBMIT HERE' is clicked on
+
+2020-07-13 10:02:33 - [TEST_STEP][PASSED] - switchToWindowTitle("NewIdea"): Switched to window with title: 'NewIdea'
+
+2020-07-13 10:02:40 - [MESSAGE][PASSED] - Switched to window with title: 'NewIdea'
+
+2020-07-13 10:02:40 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/NewIdeaPage/Page_NewIdea/select_--Select Theme--Cost LeadershipCusto_b78f32"), "Sharing Tenancy", true): All options with value 'Sharing Tenancy' are selected in object 'Object Repository/NewIdeaPage/Page_NewIdea/select_--Select Theme--Cost LeadershipCusto_b78f32'  using regular expression
+
+2020-07-13 10:02:43 - [MESSAGE][PASSED] - All options with value 'Sharing Tenancy' are selected in object 'Object Repository/NewIdeaPage/Page_NewIdea/select_--Select Theme--Cost LeadershipCusto_b78f32'  using regular expression
+
+2020-07-13 10:02:43 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/NewIdeaPage/Page_NewIdea/textarea_Characters  1500Text should be min_cc5bf1"), "jdhjdhsjdhsdjhsjdhdhhjsdhsjdhshdjsdhsdjdhsjdhsdjsjdhj"): Text 'jdhjdhsjdhsdjhsjdhdhhjsdhsjdhshdjsdhsdjdhsjdhsdjsjdhj' is set on object 'Object Repository/NewIdeaPage/Page_NewIdea/textarea_Characters  1500Text should be min_cc5bf1'
+
+2020-07-13 10:02:44 - [MESSAGE][PASSED] - Text 'jdhjdhsjdhsdjhsjdhdhhjsdhsjdhshdjsdhsdjdhsjdhsdjsjdhj' is set on object 'Object Repository/NewIdeaPage/Page_NewIdea/textarea_Characters  1500Text should be min_cc5bf1'
+
+2020-07-13 10:02:44 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/NewIdeaPage/Page_NewIdea/select_--Select Function Type--AcquisitionD_a37637"), "Supply Chain Mgmt", true): All options with value 'Supply Chain Mgmt' are selected in object 'Object Repository/NewIdeaPage/Page_NewIdea/select_--Select Function Type--AcquisitionD_a37637'  using regular expression
+
+2020-07-13 10:02:47 - [MESSAGE][PASSED] - All options with value 'Supply Chain Mgmt' are selected in object 'Object Repository/NewIdeaPage/Page_NewIdea/select_--Select Function Type--AcquisitionD_a37637'  using regular expression
+
+2020-07-13 10:02:47 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/NewIdeaPage/Page_NewIdea/textarea_Characters  1500Text should be min_a388de"), "jjsnxhschsjhjssjsjsjshjsdsjsjjssjjsjsjsjjsjjssjsjsjjs"): Text 'jjsnxhschsjhjssjsjsjshjsdsjsjjssjjsjsjsjjsjjssjsjsjjs' is set on object 'Object Repository/NewIdeaPage/Page_NewIdea/textarea_Characters  1500Text should be min_a388de'
+
+2020-07-13 10:02:48 - [MESSAGE][PASSED] - Text 'jjsnxhschsjhjssjsjsjshjsdsjsjjssjjsjsjsjjsjjssjsjsjjs' is set on object 'Object Repository/NewIdeaPage/Page_NewIdea/textarea_Characters  1500Text should be min_a388de'
+
+2020-07-13 10:02:48 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/NewIdeaPage/Page_NewIdea/select_--Select Process Name--ABC Classific_fbdab7"), "Material Planning for Infra Items", true): All options with value 'Material Planning for Infra Items' are selected in object 'Object Repository/NewIdeaPage/Page_NewIdea/select_--Select Process Name--ABC Classific_fbdab7'  using regular expression
+
+2020-07-13 10:02:51 - [MESSAGE][PASSED] - All options with value 'Material Planning for Infra Items' are selected in object 'Object Repository/NewIdeaPage/Page_NewIdea/select_--Select Process Name--ABC Classific_fbdab7'  using regular expression
+
+2020-07-13 10:02:51 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/NewIdeaPage/Page_NewIdea/button_Submit Idea")): Object: 'Object Repository/NewIdeaPage/Page_NewIdea/button_Submit Idea' is clicked on
+
+2020-07-13 10:02:54 - [MESSAGE][PASSED] - Object: 'Object Repository/NewIdeaPage/Page_NewIdea/button_Submit Idea' is clicked on
+
+2020-07-13 10:02:54 - [TEST_STEP][FAILED] - verifyTextPresent("Successfully", false): Unable to verify text 'Successfully' is present  (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'Successfully' is present 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1719)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$7.call(Unknown Source)
+	at TestCase_NewIdea.run(TestCase_NewIdea:40)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1594614705935.run(TempTestSuite1594614705935.groovy:37)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'Successfully' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+)
+
+2020-07-13 10:02:55 - [MESSAGE][FAILED] - Text 'Successfully' is not present on page  (Root cause: com.kms.katalon.core.exception.StepFailedException: Text 'Successfully' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1719)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$7.call(Unknown Source)
+	at TestCase_NewIdea.run(TestCase_NewIdea:40)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1594614705935.run(TempTestSuite1594614705935.groovy:37)
+)
+
+2020-07-13 10:02:56 - [MESSAGE][FAILED] - Unable to verify text 'Successfully' is present  (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'Successfully' is present 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1719)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$7.call(Unknown Source)
+	at TestCase_NewIdea.run(TestCase_NewIdea:40)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1594614705935.run(TempTestSuite1594614705935.groovy:37)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'Successfully' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+)
+[[ATTACHMENT|C:\\Users\\Nishant Gahlot\\git\\Katalon_Idea\\Reports\\20200713_100145\\TestSuite1\\20200713_100145\\1594614775763.png]]]]></system-out>
+         <system-err><![CDATA[2020-07-13 10:02:32 - [TEST_CASE][FAILED] - Test Cases/TestCase_NewIdea: Test Cases/TestCase_NewIdea FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'Successfully' is present 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1719)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$7.call(Unknown Source)
+	at TestCase_NewIdea.run(TestCase_NewIdea:40)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1594614705935.run(TempTestSuite1594614705935.groovy:37)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'Successfully' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-07-13 10:01:51 - [TEST_SUITE][FAILED] - TestSuite1: Test Cases/TestCase_NewIdea FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'Successfully' is present 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1719)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$7.call(Unknown Source)
+	at TestCase_NewIdea.run(TestCase_NewIdea:40)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1594614705935.run(TempTestSuite1594614705935.groovy:37)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'Successfully' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-out>
+      <system-err><![CDATA[2020-07-13 10:01:51 - [TEST_SUITE][FAILED] - TestSuite1: Test Cases/TestCase_NewIdea FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'Successfully' is present 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1719)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$7.call(Unknown Source)
+	at TestCase_NewIdea.run(TestCase_NewIdea:40)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1594614705935.run(TempTestSuite1594614705935.groovy:37)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'Successfully' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+   </testsuite>
+</testsuites>

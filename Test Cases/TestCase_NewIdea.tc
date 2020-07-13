@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TestCase_NewIdea</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>86f4f47c-c6d6-4b11-91fa-ef2b71918c01</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>9a238142-dc78-4811-a8e5-bc6c5180f6f4</id>
+      <masked>false</masked>
+      <name>Theme</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>38bdd683-e9d7-471a-a959-548425e0f1fc</id>
+      <masked>false</masked>
+      <name>FunctionType</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>715afd2b-f309-408d-b937-afda65b3d0db</id>
+      <masked>false</masked>
+      <name>Processname</name>
+   </variable>
+</TestCaseEntity>
