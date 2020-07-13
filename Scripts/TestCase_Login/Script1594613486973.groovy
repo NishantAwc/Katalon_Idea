@@ -14,4 +14,23 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
+import org.openqa.selenium.Keys as Keys
+
+WebUI.openBrowser('https://awcsoftwarenoida.sharepoint.com/sites/Indus/IdeaIncubator')
+
+WebUI.maximizeWindow()
+
+WebUI.setText(findTestObject('LoginPage/Page_Sign in to your account/input_Sign in_loginfmt'), 'Prabodh.Saxena@awcsoftwarenoida.onmicrosoft.com')
+
+WebUI.click(findTestObject('LoginPage/Page_Sign in to your account/input_Sign in_idSIButton9'))
+
+WebUI.setEncryptedText(findTestObject('LoginPage/Page_Sign in to your account/input_Enter password_passwd'), 'IiCRdv8KyzGB0RV6mb9iTg==')
+
+WebUI.click(findTestObject('LoginPage/Page_Sign in to your account/input_Sign in_idSIButton9'))
+
+WebUI.click(findTestObject('LoginPage/Page_Sign in to your account/input_concat(Don  t show this again)_idBtn_Back'))
+
+WebUI.verifyElementVisible(findTestObject('HomePage/Page_Home/img_Edit Links_onetidHeadbnnr0'))
+
+WebUI.closeBrowser()
 
